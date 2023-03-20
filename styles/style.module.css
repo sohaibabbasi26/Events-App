@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.hero_header_container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.hero_header_image {
+    width: 100%;
+    height: auto;
+}
+
+.hero_header_image .desktop {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.hero_header_image .mobile {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+
+
+
+
+
+.heroHeaderContent {
+    display: flex;
+    justify-content: center;
+    font-family: 'Andika', sans-serif;
+    padding: 7%;
+
+}
+
+
+
+
+.events h1 {
+    width: 75%;
+    height: 78px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 3%;
+}
+
+
+.events h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #5040A1;
+
+}
+
+.eventsContent span {
+
+    margin-left: 3%;
+    font-weight: 800;
+
+}
+
+.squarePic {
+    margin-top: 5%;
+}
+
+.aboutEvent {
+    margin-top: 17%;
+}
+
+.aboutEvent h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #5040A1;
+}
+
+.aboutEvent p {
+    width: 80%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.readMore:hover {
+
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1193px) {
+    .events h1 {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .heroHeaderContent {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:973px) {
+
+    .logoImg {
+        width: 20%;
+    }
+
+    .aboutEvent p {
+        width: 100%;
+
+    }
+
+
+}
+
+@media only screen and (max-width:767px) {
+
+    .hero_header_image .desktop {
+        display: none;
+    }
+
+    .hero_header_image .mobile {
+        display: block;
+    }
+}
+
+
+@media (max-width:595px) {
+
+    .logoImg {
+        width: 8rem;
+    }
+
+    .events h1 {
+        font-size: 18px;
+    }
+
+    .aboutEvent p {
+        font-size: 13px;
+    }
+}
+
+@media(max-width:354px) {
+    .events h1 {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .events h2 {
+        font-size: 15px;
+    }
+
+    .aboutEvent h2 {
+        font-size: 15px;
+    }
+
+    .eventsContent span {
+        font-size: 12px;
+        width: 100%;
+    }
+}
