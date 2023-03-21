@@ -7,7 +7,7 @@ import Search from './SearchBar';
 
 const Navbar = () => {
 
-    const media = useMediaQuery('(max-width : 767px)');
+    const media = useMediaQuery('(max-width : 1200px)');
 
     const [anchorEl, setAnchorEl] = useState(null);
 
@@ -76,8 +76,8 @@ const Navbar = () => {
 
                         (
                             <ul>
-                                <li><a>Schedule</a></li>
-                                <li><a>Event-types</a></li>
+                                <li className={styles.feature}><a>Schedule</a></li>
+                                <li className={styles.feature}><a>Event-types</a></li>
                             </ul>
                         )}
 

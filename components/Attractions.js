@@ -3,9 +3,11 @@ import { Card, CardHeader, CardContent, CardMedia, Typography, useMediaQuery } f
 import 'react-perfect-scrollbar/dist/css/styles.css';
 import ScrollBar from 'react-perfect-scrollbar';
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const posts = [
   {
+    link:'/attraction',
     id: 1,
     img: '/images/nyc.png',
     heading: `2011 Super Junior SM Town Live '10 World Tour New York City`,
@@ -27,7 +29,7 @@ const posts = [
 
 const Attractions = () => {
   const MAX_POSTS_WITHOUT_SCROLL = 1;
-  const media = useMediaQuery('(max-width: 767px)');
+  const media = useMediaQuery('(max-width: 1200px)');
   const [isMobile, setIsMobile] = useState(media);
   const [isScrollable, setIsScrollable] = useState(false);
 
@@ -40,6 +42,8 @@ const Attractions = () => {
     <div className={styles.mainContainer}>
       <h1 className={styles.postsHeading}>Attractions near you</h1>
 
+<Link href="/pages/city">dafdsafsaf
+</Link>
       {isMobile ? (
         <ScrollBar
           sx={{
@@ -51,7 +55,7 @@ const Attractions = () => {
           className={styles.postsContainer}
         >
           {posts.map((post) => (
-            <a className={styles.event}>
+            <a href='/attraction' className={styles.event} >
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
@@ -75,7 +79,7 @@ const Attractions = () => {
       ) : (
         <div className={styles.postsContainer}>
           {posts.map((post) => (
-            <a className={styles.event}>
+            <a href='/attraction' className={styles.event}>
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 

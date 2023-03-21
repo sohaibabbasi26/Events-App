@@ -81,7 +81,7 @@ export default function HeaderContent() {
             <li>of Finibus Bonorum et Malorum"de ", </li>
             <li>1914 translation by H. Rackham</li>
           </ul>
-          <Image className={styles.readMore} src="/location.png" alt="Read More" width={100} height={30} />
+          <Image className={styles.readMore} src="/Location.png" alt="Read More" width={100} height={30} />
         </div>
       </div>
     </div>

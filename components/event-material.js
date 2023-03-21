@@ -1,9 +1,9 @@
 
 import { MDBBtn } from 'mdb-react-ui-kit'
 import Style from './event-material.module.css'
-import Image from 'next/image'
-import personImg from '../images/personImg.jpg'
-import companyLogo from '../images/companyLogo.png'
+// import Image from 'next/image'
+// import personImg from '/personImg.jpg'
+// import companyLogo from '../images/companyLogo.png'
 
 const eventMaterial = () => {
     return (
@@ -41,10 +41,10 @@ const eventMaterial = () => {
                 <div className={Style.eventMaterialContainerBannerWrapper}>
                     <div className={Style.eventMaterialContainerBanner}>
                         <div className={Style.eventMaterialBannerImage}>
-                            <Image
+                            <img
                                 className={Style.personImg}
                                 alt=""
-                                src={personImg}
+                                src='/personImg.jpg'
                             />
                         </div>
                         <div className={Style.eventMaterialBannerContent}>
@@ -52,10 +52,10 @@ const eventMaterial = () => {
                                 className={Style.rectangleImg2}
                                 alt=""
                             />
-                            <Image
+                            <img
                                 className={Style.companyLogo}
                                 alt=""
-                                src={companyLogo}
+                                src='/companyLogo.png'
                             />
                             <b className={Style.text}>
                                 <p >Meet Our Company</p>

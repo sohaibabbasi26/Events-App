@@ -2,7 +2,7 @@
 
 import Eventmaterial from '../components/event-material'
 import Carousel from '../components/carousel'
-import Navbar from '../components/navbar'
+// import Navbar from '../components/navbar'
 import Framecontainer from '@/components/frame-container'
 import Footerbanner from '../components/footer-banner'
 
