@@ -23,7 +23,7 @@ import Corosoul from "../components/Corousel/corosoul"
 import Cover from "../components/cover/cover"
 import About from "../components/about/about"
 
-import City from "./city"
+import City from "./eventPage"
 
 
 import HeroHeader from "../components/HeroHeader";

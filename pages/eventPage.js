@@ -1,33 +1,26 @@
-// import React from 'react'
+// import Head from "next/head";
+// import Image from "next/image";
+import styles from "../styles/style.module.css";
+import '../styles/globals.css';
+// import Header from "../Components/Header.js";
+import HeroHeader from "../components/HeroHeader";
+import SideNavbar from "../components/SideNavbr";
+import HeaderContent from "../components/HeaderContent";
+import Footer from "../components/footer";
+import Banner from "../components/BannerPic";
+import Navbar from "../components/newNavbar";
 
-import Eventmaterial from '../components/event-material'
-import Carousel from '../components/carousel'
-// import Navbar from '../components/navbar'
-import Framecontainer from '@/components/frame-container'
-import Footerbanner from '../components/footer-banner'
-
-
-
-export default function HomePage() {
-    return (
-
-        <>
-            <div>
-                {/* <Navbar /> */}
-            </div>
-            <div>
-                <Carousel />
-            </div>
-            <div> 
-                <Eventmaterial />
-            </div>
-            <div>
-                <Framecontainer />
-            </div>
-            <div>
-                <Footerbanner />
-            </div>
-
-        </>
-    )
+export default function Home() {
+  return (
+    <div>
+      <Navbar />
+      <HeroHeader />
+      <div className={styles.heroHeaderContent}>
+        <HeaderContent />
+        <SideNavbar />
+      </div>
+      <Footer />
+      <Banner />
+    </div>
+  );
 }

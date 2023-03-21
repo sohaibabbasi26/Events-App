@@ -7,20 +7,22 @@ import Link from 'next/link';
 
 const posts = [
   {
-    link:'/attraction',
     id: 1,
+    link: '/attraction',
     img: '/images/nyc.png',
     heading: `2011 Super Junior SM Town Live '10 World Tour New York City`,
     para: `Directly seated and inside for you to enjoy the show.`,
   },
   {
     id: 2,
+    link: '/eventPage',
     img: '/images/nyc.png',
     heading: `2011 Super Junior SM Town Live '10 World Tour New York City`,
     para: `Directly seated and inside for you to enjoy the show.`,
   },
   {
     id: 3,
+    link: '/city',
     img: '/images/nyc.png',
     heading: `2011 Super Junior SM Town Live '10 World Tour New York City`,
     para: `Directly seated and inside for you to enjoy the show.`,
@@ -42,8 +44,7 @@ const Attractions = () => {
     <div className={styles.mainContainer}>
       <h1 className={styles.postsHeading}>Attractions near you</h1>
 
-<Link href="/pages/city">dafdsafsaf
-</Link>
+
       {isMobile ? (
         <ScrollBar
           sx={{
@@ -55,7 +56,7 @@ const Attractions = () => {
           className={styles.postsContainer}
         >
           {posts.map((post) => (
-            <a href='/attraction' className={styles.event} >
+            <a href={post.link} className={styles.event} >
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
@@ -79,7 +80,7 @@ const Attractions = () => {
       ) : (
         <div className={styles.postsContainer}>
           {posts.map((post) => (
-            <a href='/attraction' className={styles.event}>
+            <a href={post.link} className={styles.event}>
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
