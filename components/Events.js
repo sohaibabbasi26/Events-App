@@ -27,7 +27,7 @@ const posts = [
 
 const Attractions = () => {
   const MAX_POSTS_WITHOUT_SCROLL = 1;
-  const media = useMediaQuery('(max-width: 767px)');
+  const media = useMediaQuery('(max-width: 1200px)');
   const [isMobile, setIsMobile] = useState(media);
   const [isScrollable, setIsScrollable] = useState(false);
 
@@ -51,7 +51,7 @@ const Attractions = () => {
           className={styles.postsContainer}
         >
           {posts.map((post) => (
-            <a className={styles.event}>
+            <a href='/eventPage' className={styles.event}>
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
@@ -75,7 +75,7 @@ const Attractions = () => {
       ) : (
         <div className={styles.postsContainer}>
           {posts.map((post) => (
-            <a className={styles.event}>
+            <a href='/eventPage' className={styles.event}>
               <Card key={post.id} className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 

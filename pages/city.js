@@ -1,13 +1,14 @@
 // import Head from "next/head";
 // import Image from "next/image";
 import styles from "../styles/style.module.css";
+import '../styles/globals.css';
 // import Header from "../Components/Header.js";
-import HeroHeader from "../Components/HeroHeader";
-import SideNavbar from "../Components/SideNavbr";
-import HeaderContent from "../Components/HeaderContent";
-import Footer from "../Components/footer";
-import Banner from "../Components/BannerPic";
-import Navbar from "../Components/newNavbar";
+import HeroHeader from "../components/HeroHeader";
+import SideNavbar from "../components/SideNavbr";
+import HeaderContent from "../components/HeaderContent";
+import Footer from "../components/footer";
+import Banner from "../components/BannerPic";
+import Navbar from "../components/newNavbar";
 
 export default function Home() {
   return (

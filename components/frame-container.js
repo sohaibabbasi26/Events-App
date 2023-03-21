@@ -1,14 +1,14 @@
-import Image from 'next/image';
+// import img from 'next/img';
 import style from './frame-container.module.css'
 import ScrollBar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
-import shoppingImg from '../images/shoppingmall@2x.png';
-import eiffeltowerImg from '../images/eiffeltower@2x.png';
-import fastfoodImg from '../images/fastfood@2x.png';
-import parachuteImg from '../images/parachute@2x.png';
-import skidivingImg from '../images/skiing@2x.png';
-import destinationImg from '../images/destination.png';
-import spotlightsImg from '../images/spotlight@2x.png';
+// import shoppingImg from '../imgs/shoppingmall@2x.png';
+// import eiffeltowerImg from '../imgs/eiffeltower@2x.png';
+// import fastfoodImg from '../imgs/fastfood@2x.png';
+// import parachuteImg from '../imgs/parachute@2x.png';
+// import skidivingImg from '../imgs/skiing@2x.png';
+// import destinationImg from '../imgs/destination.png';
+// import spotlightsImg from '../imgs/spotlight@2x.png';
 import Link from 'next/link';
 
  
@@ -29,64 +29,64 @@ const frameContainer = () => {
                     <div className={style.categoriesGroup}>
 
                         <button className={style.iconParent} onClick={shoppingBtn}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={shoppingImg}
+                                src='/shoppingmall@2x.png'
                             />
                             <b className={style.catName}> Shopping </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={eiffeltowerImg}
+                                src='/eiffeltower@2x.png'
                             />
                             <b className={style.catName}> Attraction </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={fastfoodImg}
+                                src='/fastfood@2x.png'
                             />
                             <b className={style.catName}> Food </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={parachuteImg}
+                                src='/parachute@2x.png'
                             />
                             <b className={style.catName}> Skydiving </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={skidivingImg}
+                                src='/skiing@2x.png'
                             />
                             <b className={style.catName}> Water Sports </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={destinationImg}
+                                src='/destination.png'
                             />
                             <b className={style.catName}> Ciry Tours </b>
                         </button>
 
                         <button className={style.iconParent}>
-                            <Image
+                            <img
                                 className={style.iconImg}
                                 alt=""
-                                src={spotlightsImg}
+                                src='/spotlight@2x.png'
                             />
                             <b className={style.catName}> Concerts </b>
                         </button>
@@ -96,7 +96,7 @@ const frameContainer = () => {
                     <div className={style.allCityAttractionsParent}>
                         <h1 className={style.heading}> All City Attractions </h1>
                         <ScrollBar className={style.eventParent}>
-                            <a className={style.event}>
+                            <a className={style.event} href='/city'>
                                 <img
                                     className={style.eventChild}
                                     alt=""

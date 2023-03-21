@@ -1,9 +1,8 @@
 import Style from './footer-banner.module.css';
 import { MDBBtn } from 'mdb-react-ui-kit';
 import Image from 'next/image';
-import personImg from '../images/personImg.jpg'
-import companyLogo from '../images/companyLogo.png'
-import compnayProfile from '../public/companyProfile.png'
+// import companyLogo from '../images/companyLogo.png'
+// import compnayProfile from '../public/companyProfile.png'
 
 const footerBanner = () => {
     return (
@@ -11,10 +10,10 @@ const footerBanner = () => {
             <div className={Style.eventMaterialContainerBannerWrapper}>
                 <div className={Style.eventMaterialContainerBanner}>
                     <div className={Style.eventMaterialBannerImage}>
-                        <Image
+                        <img
                             className={Style.personImg}
                             alt=""
-                            src={compnayProfile}
+                            src='/companyProfile.png'
                         />
                     </div>
                     <div className={Style.eventMaterialBannerContent}>
@@ -22,10 +21,10 @@ const footerBanner = () => {
                             className={Style.rectangleImg2}
                             alt=""
                         />
-                        <Image
+                        <img
                             className={Style.companyLogo}
                             alt=""
-                            src={companyLogo}
+                            src='/companyLogo.png'
                         />
 
                         <div className={Style.text}>

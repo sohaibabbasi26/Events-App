@@ -61,10 +61,10 @@ const Features = () => {
         <ul className={styles.featuresDiv}>
             {visibleFeatures.map((feature, index) => {
                 return (
-                    <li key={index} className={styles.features}>
+                    <button key={index} className={styles.features}>
                         <img src={feature.src} className={styles.btnImage} />
                         <p className={styles.ftrText}>{feature.name}</p>
-                    </li>
+                    </button>
                 )
             })}
         </ul>
