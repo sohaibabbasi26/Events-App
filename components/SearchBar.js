@@ -4,19 +4,22 @@ import styles from '../app/page.module.css'
 
 
 const Search = () => {
-    return(
+    return (
         <AppBar position='static' className={styles.navbar}>
             <Toolbar>
-            <InputBase
+                <InputBase
                     placeholder='Search…'
                     inputProps={{ 'aria-label': 'search' }}
                     className={styles.navsearch}
+                    startAdornment={ <SearchIcon className={styles.searchIcon} />}
                 />
-                <IconButton type='submit' aria-label='search' className={styles.subnav}>
-                    <SearchIcon className={styles.subnav} />
-                </IconButton>
+
             </Toolbar>
-            <button className={styles.searchBtn}>Search</button>
+            <button className={styles.searchBtn}>
+                <b>
+                    Search
+                </b>
+            </button>
         </AppBar>
     );
 }

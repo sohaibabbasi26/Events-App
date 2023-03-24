@@ -42,7 +42,7 @@ const Attractions = () => {
 
   return (
     <div className={styles.mainContainer}>
-      <h1 className={styles.postsHeading}>Attractions near you</h1>
+      <h1 className={styles.postsHeading}><b>Attractions near you</b></h1>
 
 
       {isMobile ? (
@@ -61,7 +61,7 @@ const Attractions = () => {
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>
-                  <h1 className={styles.cardHeading}>{post.heading}</h1>
+                  <h1 className={styles.cardHeading}><b>{post.heading}</b></h1>
 
                   <CardContent>
                     <Typography
