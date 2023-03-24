@@ -55,7 +55,7 @@ const features = [
 const Features = () => {
     const media = useMediaQuery('(max-width : 767px)')
 
-    const visibleFeatures = media ? features.slice(0, 6) : features;
+    const visibleFeatures = media ? features.slice(0, 9) : features;
 
     return (
         <ul className={styles.featuresDiv}>

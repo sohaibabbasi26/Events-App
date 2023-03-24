@@ -1,10 +1,6 @@
 import { useState } from "react"
-import Slider from "@mui/material/Slider";
-import { getListItemSecondaryActionClassesUtilityClass } from "@mui/material/ListItemSecondaryAction";
 import styles from '../app/page.module.css'
-import Image from "next/image";
-import Carousel from "react-material-ui-carousel";
-//import { makeStyles } from "@mui/styles";
+import Carousel from "react-material-ui-carousel"
 
 
 const images = [
@@ -39,12 +35,12 @@ const Banner = () => {
         setActiveBanner(banner);
     }
 
-    const maxBanner = images.length;
+    //const maxBanner = images.length;
 
     return (
         <div className={styles.bannerDiv}>
-            <h1 className={styles.bannerText}>Offers for you</h1>
-            <div style={{ width: '80%', height: '100%', borderRadius: '30px' }}>
+            <h1 className={styles.bannerText}><b>Offers for you</b></h1>
+            <div style={{width: '90%', height: '50%', borderRadius: '30px'}}>
                 <Carousel
                     autoPlay={true}
                     animation={"slide"}
