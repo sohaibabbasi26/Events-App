@@ -27,6 +27,8 @@ const images = [
 
 
 const Banner = () => {
+
+
     const [activeBanner, setActiveBanner] = useState(0);
 
     const handleBannerChange = (banner) => {
@@ -66,5 +68,7 @@ const Banner = () => {
         </div>
     )
 }
+
+
 
 export default Banner;

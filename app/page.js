@@ -1,6 +1,7 @@
 "use client"
 
 import Navbar from '@/components/Navbar'
+// import Navbar from '../components/navbarMui/navbar'
 import Banner from '@/components/Banner';
 import Features from '@/components/Features';
 import Attractions from '@/components/Attractions';

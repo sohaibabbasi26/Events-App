@@ -22,7 +22,7 @@ const Comment = () => {
         <div className="comment_section_base">
 
             <span>
-                <span className="main_screen_heading" style={{ width: "100%" }} >Don't see the answer you were looking for? Post your Questions</span>
+                <span className="main_screen_heading" style={{ width: "100%", height: "10rem" }} >Don't see the answer you were looking for? Post your Questions</span>
                 <br />
                 <span className="comment_screen_sub_head">Your questions might be answered by the host, speakers or GoSocial team</span>
             </span>
