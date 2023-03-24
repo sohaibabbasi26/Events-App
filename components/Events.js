@@ -29,7 +29,7 @@ const posts = [
 ];
 
 const Attractions = () => {
-  const MAX_POSTS_WITHOUT_SCROLL = 1;
+  //const MAX_POSTS_WITHOUT_SCROLL = 1;
   const media = useMediaQuery('(max-width: 1200px)');
   const [isMobile, setIsMobile] = useState(media);
   const [isScrollable, setIsScrollable] = useState(false);
@@ -41,7 +41,7 @@ const Attractions = () => {
 
   return (
     <div className={styles.mainContainer}>
-      <h1 className={styles.postsHeading}>Events near you</h1>
+      <h1 className={styles.postsHeading}><b>Events near you</b></h1>
 
       {isMobile ? (
         <ScrollBar
@@ -59,7 +59,7 @@ const Attractions = () => {
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>
-                  <h1 className={styles.cardHeading}>{post.heading}</h1>
+                  <h1 className={styles.cardHeading}><b>{post.heading}</b></h1>
 
                   <CardContent>
                     <Typography
