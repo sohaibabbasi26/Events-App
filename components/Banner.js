@@ -31,6 +31,8 @@ const images = [
 
 
 const Banner = () => {
+
+
     const [activeBanner, setActiveBanner] = useState(0);
 
     const handleBannerChange = (banner) => {
@@ -42,7 +44,7 @@ const Banner = () => {
     return (
         <div className={styles.bannerDiv}>
             <h1 className={styles.bannerText}>Offers for you</h1>
-            <div style={{width: '80%', height: '100%', borderRadius: '30px'}}>
+            <div style={{ width: '80%', height: '100%', borderRadius: '30px' }}>
                 <Carousel
                     autoPlay={true}
                     animation={"slide"}
@@ -70,5 +72,7 @@ const Banner = () => {
         </div>
     )
 }
+
+
 
 export default Banner;
