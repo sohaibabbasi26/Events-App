@@ -8,6 +8,7 @@ import Footerbanner from '../components/footer-banner'
 
 
 
+
 export default function HomePage() {
     return (
 
@@ -18,7 +19,7 @@ export default function HomePage() {
             <div>
                 <Carousel />
             </div>
-            <div> 
+            <div > 
                 <Eventmaterial />
             </div>
             <div>
