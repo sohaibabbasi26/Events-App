@@ -11,8 +11,8 @@
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  gap: 3.5rem;
-  padding-bottom: 5rem;
+  gap: 1rem;
+  padding-bottom: 2.5rem;
 }
 
 .navbar {
@@ -199,8 +199,8 @@ height: 28.88px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 100px 24px 94px;
-  gap: 16px;
+  padding: 24px 100px 24px 100px;
+  
   max-width: 100%;
   flex-wrap: wrap;
   /* 
@@ -214,7 +214,7 @@ height: 28.88px;
   align-items: center;
   order: 0;
   flex-grow: 0;
-  margin-left: 2.15%;
+  /* margin-left: 2.15%; */
 }
 
 .btnImage {
@@ -464,7 +464,7 @@ flex-grow: 0; */
   .navsearch {
     width: 100%;
     overflow: hidden;
-    margin-bottom: 0.2rem;
+    margin-bottom: 10px;
   }
 
   .subnav {
@@ -564,12 +564,19 @@ flex-grow: 0; */
     width: 100%;
   }
 
+  .menuContainer{
+    position: relative;
+  }
+
+
   .menuBarIcon {
     color: #5040A1;
-    background-color: #fff;
-    height: 28.88px;
-    width: 28.89px;
-    border-radius: 50%;
+    
+    height: 30px;
+    width: 30px;
+    right: 0;
+    top: 0;
+    position: absolute;
   }
 
   .bannerDiv {
@@ -696,6 +703,6 @@ flex-grow: 0; */
   .bannerText{
     font-size: 1.5rem;
   }
-
+  
 
 }

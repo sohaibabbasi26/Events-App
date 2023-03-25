@@ -1,13 +1,12 @@
 "use client"
 
 import Navbar from '@/components/Navbar'
-import Banner from '@/components/Banner';
+import BannerSlider from '@/components/Banner';
 import Features from '@/components/Features';
 import Attractions from '@/components/Attractions';
 import Events from '@/components/Events';
-import styles from '../app/page.module.css'
-
-
+import styles from '../app/page.module.css';
+import Banner from '@/components/BannerPic';
 
 
 export default function Home() {
@@ -16,9 +15,10 @@ export default function Home() {
     <div className={styles.main}>
       <Navbar />
       <Features />
-      <Banner />
+      <BannerSlider />
       <Attractions />
       <Events />
+      <Banner />
     </div>
   )
 }
