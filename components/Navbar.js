@@ -77,7 +77,7 @@ const Navbar = () => {
                         (
                             <ul>
                                 <li className={styles.feature}><a>Schedule</a></li>
-                                <li className={styles.feature}><a>Event-typesssss</a></li>
+                                <li className={styles.feature}><a>Event-types</a></li>
                             </ul>
                         )}
 
