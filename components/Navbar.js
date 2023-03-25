@@ -54,7 +54,7 @@ const Navbar = () => {
                         </Menu>)
 
                         :
-
+ 
                         (
                             <ul>
                                 <li className={styles.feature}><a>Schedule</a></li>
@@ -67,7 +67,7 @@ const Navbar = () => {
 
                     <div className={styles.menuContainer}>
                     <IconButton size='large' edge='start' color='inherit' aria-label='menu' onClick={handleClick} className={styles.menuIcon}>
-                        <MenuRounded className={styles.menuBarIcon} />
+                    <img src='/images/Location.png'  className={styles.menuBarIcon} />
                     </IconButton>
                     </div>
                 </div>

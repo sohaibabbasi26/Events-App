@@ -2,7 +2,7 @@ import { AppBar, Toolbar, IconButton, Typography, InputBase } from '@mui/materia
 import SearchIcon from '@mui/icons-material/Search';
 import styles from '../app/page.module.css'
 
-
+ 
 const Search = () => {
     return (
         <AppBar position='static' className={styles.navbar}>
