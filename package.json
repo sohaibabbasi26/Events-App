@@ -9,19 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@fortawesome/fontawesome-free": "^6.3.0",
+    "@mui/material": "^5.11.14",
     "@next/font": "^13.2.4",
     "bootstrap": "^5.2.3",
     "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
     "mdb-react-ui-kit": "^5.1.0",
-    "next": "13.2.4",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^13.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-material-ui-carousel": "^3.4.2",
     "react-perfect-scrollbar": "^1.5.8",
-    "react-scroll-horizontal": "^1.6.6",
     "reactstrap": "^9.1.6"
   }
 }

@@ -54,8 +54,8 @@ const Attractions = () => {
           className={styles.postsContainer}
         >
           {posts.map((post) => (
-            <a href={post.link} className={styles.event}>
-              <Card key={post.id} className={styles.postCard}>
+            <a key={post.id} href={post.link} className={styles.event}>
+              <Card className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>
@@ -78,8 +78,8 @@ const Attractions = () => {
       ) : (
         <div className={styles.postsContainer}>
           {posts.map((post) => (
-            <a href={post.link} className={styles.event}>
-              <Card key={post.id} className={styles.postCard}>
+            <a key={post.id} href={post.link} className={styles.event}>
+              <Card className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>

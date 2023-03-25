@@ -26,6 +26,7 @@ const images = [
  
 
 
+
 const BannerSlider = () => {
     const [activeBanner, setActiveBanner] = useState(0);
 
@@ -66,5 +67,6 @@ const BannerSlider = () => {
         </div>
     )
 }
+
 
 export default BannerSlider;

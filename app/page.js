@@ -1,7 +1,9 @@
 "use client"
 
 import Navbar from '@/components/Navbar'
+
 import BannerSlider from '@/components/Banner';
+
 import Features from '@/components/Features';
 import Attractions from '@/components/Attractions';
 import Events from '@/components/Events';

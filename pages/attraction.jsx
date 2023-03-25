@@ -12,9 +12,9 @@ import "../styles/attraction.css"
 import Image from "next/image"
 
 import 'react-perfect-scrollbar/dist/css/styles.css';
-import PerfectScrollbar from 'react-perfect-scrollbar';
 
-import { AiFillStar } from "react-icons/ai"
+
+
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Comment from "../components/comment"
@@ -31,7 +31,7 @@ import SideNavbar from "../components/SideNavbr";
 import HeaderContent from "../components/HeaderContent";
 import Footer from "../components/footer";
 import Banner from "../components/BannerPic";
-import Navbar from "../components/newNavbar";
+
 
 
 import styles from "../styles/style.module.css";
@@ -65,9 +65,11 @@ const Post = () => {
             <HeroHeader />
 
             <div className={styles.heroHeaderContent}>
-        <HeaderContent />
-        <SideNavbar />
-      </div>
+                <HeaderContent />
+                <SideNavbar />
+            </div>
+
+
 
             <Corosoul />
 

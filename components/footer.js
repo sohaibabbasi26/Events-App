@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.footerContent}>
         <h1>Don't see the answer you're looking for? Post Your Question</h1>
         <p>
-          Your question might be answered by the host, speakers or GoSocial team
+          Your question might be answered by the host, speakers or 
         </p>
         <div className={styles.commentSection}>
           <div className={styles.comment1}>
