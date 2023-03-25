@@ -1,0 +1,161 @@
+@media only screen and (max-width: 1000px) {
+
+
+    .reviews_comp_base {
+
+        width: 90%;
+        /* background-color: red; */
+    }
+
+
+    .gallery_base{
+        width: 90% !important;
+    }
+
+    .reviews_tab_base {
+        width: 90% !important;
+
+    }
+
+    .main_screen_heading {
+        width: 90% !important;
+
+    }
+
+
+
+    .comment_section_base {
+
+        width: 90%;
+        padding-left: 0.5rem !important;
+
+
+    }
+
+    .comments_scrollbar {
+        /* background-color: green; */
+        padding: 0.5rem;
+
+    }
+
+
+    .comment_box {
+        /* background-color: red; */
+        width: 100%;
+        margin: 0;
+        min-height: 12rem;
+
+    }
+
+
+    .comment_section_base {
+        padding-top: 2rem;
+        height: 60rem;
+        /* background-color: red; */
+    }
+
+
+    .page_bottom_cover {
+        width: 90% !important;
+    }
+
+    .main_screen_heading {
+
+        font-size: 1.2rem !important;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+
+    .comment_write_area {
+        height: 20rem;
+    }
+
+    .comment_textarea {
+
+        min-height: 10rem !important;
+    }
+
+
+
+
+    .comment_screen_bottom {
+        gap: 3rem;
+    }
+
+
+    .comments_scrollbar {
+
+        min-height: 45rem;
+        max-height: 45rem;
+        /* background-color: pink; */
+    }
+
+
+    .comment_section_base {
+
+        height: 85rem;
+        /* background-color: red; */
+    }
+
+
+
+    .reviews_tab_base {
+        /* background-color: red !important; */
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: auto auto;
+        place-items: center;
+        padding: 0;
+
+        gap: 2rem;
+        min-height: 25rem !important;
+
+
+    }
+
+    .review_span {
+        min-width: 85vw !important;
+        max-width: 85vw !important;
+        min-height: 18rem;
+        gap: 1rem
+    }
+
+
+
+    .main_screen_heading {
+
+        font-size: 1rem !important;
+
+
+    }
+
+
+    .review_bottom_bar {
+        font-size: 1rem !important;
+    }
+
+    .review_top_bar_rating {
+        font-size: 1.3rem !important;
+    }
+
+    .review_top_bar_num {
+        font-size: 1rem !important;
+    }
+
+
+
+
+}

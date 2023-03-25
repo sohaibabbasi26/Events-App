@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.navParent {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  gap: 3.5rem;
+  padding-bottom: 5rem;
+}
+
+.navbar {
+  background-color: #242565;
+  /* position: relative; */
+  position: relative;
+  border: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border: none;
+  box-shadow: none;
+}
+
+.navsearch {
+  background-color: white;
+  color: black;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 20px;
+  position: absolute;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.subnav {
+  color: white;
+
+}
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar li {
+  width: 100%;
+  list-style: none;
+  
+  /* display: inline; */
+  /* padding: 1rem; */
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  /* position: absolute; */
+  /* right: 0; */
+}
+
+.navbar li a {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  /* background-color: red; */
+}
+
+.menuIcon {
+  display: none;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbtn {
+  width: 57%;
+  padding: 3%;
+  background-color: #F5167E;
+  border-radius: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.bannerImg {
+  height: 300px;
+  display: block;
+  width: '100%';
+  overflow: hidden,
+}
+
+.features {
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center !important;
+  padding: 16px 24px;
+  gap: 14px;
+
+  width: auto;
+  height: 56px;
+
+  background: #FFFFFF;
+  border: 2px solid #242565;
+  border-radius: 80px;
+
+
+  padding: 0;
+  z-index: 1;
+
+  flex-basis: auto;
+
+  padding: 0 20px
+}
+
+.ftrText {
+  width: auto;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0;
+  /* identical to box height, or 138% */
+
+
+  letter-spacing: 0.3px;
+  align-items: center;
+
+  color: #242565;
+  margin: 0;
+  /* Inside auto layout */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.ftrText p {
+  text-align: center;
+}
+
+
+.featuresDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 100px 24px 94px;
+  gap: 16px;
+  max-width: 100%;
+  flex-wrap: wrap;
+  /* 
+  width: 1440px;
+  height: 176px; */
+
+
+  /* Inside auto layout */
+
+  display: flex;
+  align-items: center;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 2.15%;
+}
+
+.btnImage {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.searchBtn {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  border: solid 1px #FFFFFF;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #FFFFFF;
+  width: 119.79px;
+  position: absolute;
+  right: 5%;
+  top: 10%;
+}
+
+.bannerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px 0px;
+  gap: 16px;
+  isolation: isolate;
+
+  width: 100%;
+  height: 100%;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  /* order: 1; */
+  align-self: stretch;
+  flex-grow: 0;
+  /* margin-bottom: 20rem; */
+}
+
+.carouselImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+
+.bannerText {
+  width: 1218px;
+  height: 48px;
+
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #000000;
+}
+
+.mainContainer {
+  /* Frame 30 */
+
+
+  /* Auto layout */
+
+  /* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 100px;
+gap: 40px;
+
+width: 1418px;
+height: 812px;
+top: 50%;
+
+/* Inside auto layout */
+
+  /* flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0; */
+
+
+  /* margin: 0 auto;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 16px;
+  /* align-self: stretch; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%; */
+
+
+
+
+
+
+  height: 500px;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 16px;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 95%;
+  left: 2.5%;
+
+}
+
+.postsHeading {
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.postsContainer {
+  display: flex;
+  align-self: stretch;
+  height: 90%;
+  /* flex-shrink: 0; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+  font-family: sans-serif;
+  margin: 0 auto;
+  max-width: 90%;
+  margin-left: 7%;
+  /* This will center the container horizontally */
+}
+
+.postCard {
+  text-decoration: none;
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px rgba(36, 37, 101, 0.3);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: center;
+  align-items: center;
+}
+
+.textContent {
+  /* Auto layout */
+
+  display: flex;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 16px;
+}
+
+.cardHeading {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2px;
+  align-self: stretch;
+  flex-direction: column;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.postContent {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+
+.cardImage {
+  align-self: stretch;
+  flex-shrink: 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event {
+  text-decoration: none;
+  flex: 1;
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px rgba(36, 37, 101, 0.3);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  color: inherit;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 40%;
+}
+
+@media only screen and (max-width:1200px) {
+
+  .logo {
+    font-size: 1rem;
+    width: 100%;
+
+  }
+
+
+  .navbar {
+    position: static;
+
+  }
+
+  .navsearch {
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .subnav {
+    left: 90%;
+    color: white;
+  }
+
+  .navbar li {
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .content {
+    position: static;
+    display: block;
+    width: 100%;
+  }
+
+  .navbtn {
+    margin: 1rem auto;
+  }
+
+  .menuIcon {
+    display: inline;
+  }
+
+  .searchBtn {
+    display: none;
+  }
+
+  .ftrText {
+    text-align: center;
+    width: 70%;
+  }
+
+  .ftrText p {
+    font-size: 1rem;
+  }
+
+
+  .featuresDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 16px 16px;
+    gap: 24px;
+
+    width: 90%;
+    height: 300px;
+
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+  }
+
+  .features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+    gap: 16px;
+
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    flex-basis: 40%;
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbtn {
+    display: none;
+  }
+
+  .logoContainer {
+    width: 100%;
+  }
+
+  .bannerDiv {
+    overflow: hidden;
+    margin-bottom: 35%;
+  }
+
+  .postsContainer {
+    overflow-x: scroll;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: stretch;
+    height: 294px;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: Inter;
+    max-width: 90%;
+  }
+
+  .mainContainer {
+    flex-direction: column;
+    padding: 20px 0;
+    gap: 16px;
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .mobilePostsContainer {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    flex-direction: column;
+    scroll-snap-type: x mandatory;
+  }
+
+  .postsContainer.scrollable {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    white-space: nowrap;
+    max-width: 1200px;
+  }
+
+  .postCard {
+    max-width: 300px;
+    scroll-snap-align: center;
+  }
+
+  .event {
+    text-decoration: none;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 4px 10px rgba(36, 37, 101, 0.3);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    color: inherit;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .cardImage {
+    align-self: stretch;
+    position: relative;
+    flex-shrink: 0;
+    max-width: 100%;
+    overflow: hidden;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .textContent {
+    display: flex;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 16px;
+  }
+
+  .postsHeading {
+    display: flex;
+    font-size: 1.5rem;
+    color: #000;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+  }
+
+
+  .btnImage {
+    position: relative;
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    object-fit: cover;
+    flex-direction: column;
+
+  }
+
+  .features {
+    flex-direction: column;
+    border: none;
+  }
+
+  .ftrText {
+    font-size: 12px;
+  }
+
+
+
+}
