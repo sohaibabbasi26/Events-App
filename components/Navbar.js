@@ -54,7 +54,7 @@ const Navbar = () => {
                         </Menu>)
 
                         :
-
+ 
                         (
                             <ul>
                                 <li className={styles.feature}><a>Schedule</a></li>

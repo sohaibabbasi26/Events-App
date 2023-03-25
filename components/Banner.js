@@ -23,7 +23,7 @@ const images = [
         height: 1000
     }
 ]
-
+ 
 
 
 const BannerSlider = () => {

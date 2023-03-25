@@ -8,7 +8,7 @@ import Events from '@/components/Events';
 import styles from '../app/page.module.css';
 import Banner from '@/components/BannerPic';
 
-
+ 
 export default function Home() {
   console.log(`hellow this is next js`);
   return (
