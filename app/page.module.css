@@ -203,6 +203,7 @@
   
   max-width: 100%;
   flex-wrap: wrap;
+  gap: 10px;
   /* 
   width: 1440px;
   height: 176px; */
