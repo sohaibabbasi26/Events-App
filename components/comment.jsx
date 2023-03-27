@@ -21,8 +21,8 @@ const Comment = () => {
 
         <div className="comment_section_base">
 
-            <span style={{display:"flex" , flexDirection:"column" , gap:"1rem"}}>
-                <span className="main_screen_heading" style={{ width: "100%" }} >Don't see the answer you were looking for? Post your Questions</span>
+            <span style={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
+                <span className="main_screen_heading comment_heading" style={{ width: "100%" }} >Don't see the answer you were looking for? Post your Questions</span>
                 <br />
                 <span className="comment_screen_sub_head">Your questions might be answered by the host, speakers or GoSocial team</span>
             </span>

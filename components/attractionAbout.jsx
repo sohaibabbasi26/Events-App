@@ -2,9 +2,14 @@
 import Image from "next/image";
 import styles from "../styles/style.module.css";
 
+import "./responsive.css"
+
+
 export default function HeaderContent() {
   return (
-    <div className={styles.headings}>
+
+
+    <div style={{ width: "100%"  }} className={styles.headings}>
 
 
       <h1>2011 Super Junior SM Town Live '10 World Tour New York City</h1>
@@ -13,7 +18,10 @@ export default function HeaderContent() {
       </h2>
 
 
+
       <div className={styles.Container}>
+
+
         <div className={styles.Content}>
           <div className={styles.eventsContainer}>
             <div className={styles.eventsContents}>
@@ -115,9 +123,13 @@ export default function HeaderContent() {
 
 
         </div>
-        <div className={styles.sideNavbarContainer}>
-          <div className={styles.sideNavbar}>
-            <div className={styles.sideNavbarContent}>
+
+
+        <div style={{ display: "flex", minWidth: "35%", justifyContent: "center", alignItems: "center", flexDirection: "column" }} className={styles.sideNavbarContainer}>
+
+          <div style={{ width: '100%' }} className={styles.sideNavbar}>
+
+            <div style={{ display: 'flex', width: "100%", flexDirection: "column", alignItems: "flex-start", justifyContent: "center" }} className={styles.sideNavbarContent}>
               <div className={styles.text}>
                 <small>Starting From</small>
                 <div className={styles.firstSideNavbar}>
@@ -163,27 +175,39 @@ export default function HeaderContent() {
                   </div>
                 </div>
               </div>
+
               <div className={styles.text}>
                 <small>Location</small>
                 <div>
                   <p>Morumbi Stadium, São Paulo, Brazil</p>
                 </div>
               </div>
-              <button className={styles.btn}>Buy Tickets</button>
+
+              <button style={{ alignSelf: "center", marginTop: "1rem" }} className={styles.btn}>Buy Tickets</button>
             </div>
           </div>
-          <div className={styles.banner}>
+
+
+          <div className={styles.banner} style={{ width: "100%" }}>
             <img src="/Banner.png" alt="Banner" />
+
           </div>
+
+
           <div className={styles.bannerRes}>
+
             <Image
               src="/mediabanner.png"
+              style={{ width: "100%" }}
               alt="Banner"
               width={360}
               height={100}
             />
           </div>
         </div>
+
+
+
       </div>
     </div>
   );

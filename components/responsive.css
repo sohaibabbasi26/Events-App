@@ -1,20 +1,31 @@
 @media only screen and (max-width: 1000px) {
 
 
+    .attractionAboutComp {
+        width: 90%;
+    }
+
     .reviews_comp_base {
 
         width: 90%;
-        /* background-color: red; */
+
+
+    }
+
+    .comment_heading {
+
+        height: 5rem !important;
+        font-size: 30px !important;
     }
 
 
     .attractionAboutComp {
         margin-top: -2rem;
         width: 90%;
-        background-color: red;
-        height: 100rem !important;
 
-    
+        height: 110rem !important;
+
+
 
     }
 
@@ -39,6 +50,7 @@
     .comment_section_base {
 
         width: 90%;
+        height: 65rem !important;
         padding-left: 0.5rem !important;
 
 
@@ -84,6 +96,13 @@
 
 @media only screen and (max-width: 500px) {
 
+
+
+    .comment_heading {
+
+        height: 7rem !important;
+        margin-bottom: 2rem;
+    }
 
 
     .comment_write_area {
