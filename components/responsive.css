@@ -1,13 +1,10 @@
-
-
-
 @media only screen and (max-width: 1000px) {
 
 
-    .attraction_middle_banner{
-    height: 15rem;
+    .attraction_middle_banner {
+        height: 15rem;
     }
-    
+
 
     .attractionAboutComp {
         width: 90%;
