@@ -1,6 +1,10 @@
 @media only screen and (max-width: 1000px) {
 
 
+    .attractionAboutComp {
+        width: 90%;
+    }
+
     .reviews_comp_base {
 
         width: 90%;

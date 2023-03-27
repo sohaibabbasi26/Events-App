@@ -64,7 +64,7 @@ const Post = () => {
 
             <HeroHeader />
 
-            <div className="attractionAboutComp" style={{ width: "80%", height: "maxContent" , marginBottom:"3rem" }}>
+            <div className="attractionAboutComp" style={{  height: "maxContent" , marginBottom:"3rem" }}>
                 <HeaderContent />
                 {/* <SideNavbar /> */}
             </div>
