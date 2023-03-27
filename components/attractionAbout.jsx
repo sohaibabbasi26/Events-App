@@ -5,12 +5,14 @@ import styles from "../styles/style.module.css";
 export default function HeaderContent() {
   return (
     <div className={styles.headings}>
+
+
       <h1>2011 Super Junior SM Town Live '10 World Tour New York City</h1>
       <h2 className={styles.headingMob}>
         Directly seated and inside for you to enjoy the show.
       </h2>
 
-      
+
       <div className={styles.Container}>
         <div className={styles.Content}>
           <div className={styles.eventsContainer}>
@@ -110,86 +112,8 @@ export default function HeaderContent() {
             </div>
           </div>
 
-          <div className={styles.footer}>
-            <div className={styles.CommentStyes}>
-              <div className={styles.footerContent}>
-                <div className={styles.footerhead}>
-                  <h2>
-                    Don't see the answer you're looking for? Post Your Question
-                  </h2>
-                  <h3>
-                    Your question might be answered by the host, speakers or
-                    GoSocial team
-                  </h3>
-                </div>
-                <div className={styles.commentSection}>
-                  <div className={styles.comment1}>
-                    <div className={styles.commentStyle}>
-                      <p>
-                        <Image
-                          src="/Oval.png"
-                          alt="Comment section pic"
-                          width={24}
-                          height={26}
-                        />
-                        <span className={styles.logoName}>amyrobson</span>
-                      </p>
-                      <p>1 month ago</p>
-                    </div>
-                    <span>
-                      Impressive! Though it seems the drag feature could be
-                      improved. But overall it looks incredible. You’ve nailed
-                      the design and the responsiveness at various breakpoints
-                      works really well.
-                    </span>
-                  </div>
-                </div>
-                <div className={styles.commentSection}>
-                  <div className={styles.comment1}>
-                    <div className={styles.commentStyle}>
-                      <p>
-                        <Image
-                          src="/Oval1.png"
-                          alt="Comment section pic"
-                          width={24}
-                          height={26}
-                        />
-                        <span className={styles.logoName}> maxblagun</span>
-                      </p>
-                      <p>2 weeks ago</p>
-                    </div>
-                    <span>
-                      Woah, your project looks awesome! How long have you been
-                      coding for? I’m still new, but think I want to dive into
-                      React as well soon. Perhaps you can give me an insight on
-                      where I can learn React? Thanks!
-                    </span>
-                  </div>
-                </div>
-                <div className={styles.commentTextArea}>
-                  <textarea
-                    className={styles.commentArea}
-                    rows="5"
-                    placeholder="Add a comment. Use ‘@’ to tag people"
-                  ></textarea>
 
-                  <div className={styles.commentFooter}>
-                    <div>
-                      <Image
-                        src="/Oval2.png"
-                        alt="Comment section pic"
-                        width={24}
-                        height={26}
-                      />
-                    </div>
-                    <div>
-                      <button>Comment</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
         <div className={styles.sideNavbarContainer}>
           <div className={styles.sideNavbar}>
