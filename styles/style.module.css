@@ -1,3 +1,4 @@
+
 .hero_header_container {
     width: 100%;
     height: auto;
@@ -31,9 +32,11 @@
     margin-left: 3rem;
     font-family: 'Inter', sans-serif;
 
-
-
 }
+
+
+
+
 
 .headingMob {
     display: none;

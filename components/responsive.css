@@ -1,6 +1,11 @@
 @media only screen and (max-width: 1000px) {
 
 
+    .attraction_middle_banner {
+        height: 15rem;
+    }
+
+
     .attractionAboutComp {
         width: 90%;
     }
@@ -23,7 +28,7 @@
         margin-top: -2rem;
         width: 90%;
 
-        height: 110rem !important;
+        /* height: 110rem !important; */
 
 
 
@@ -49,7 +54,7 @@
 
     .comment_section_base {
 
-        width: 90%;
+        width: 90% !important;
         height: 65rem !important;
         padding-left: 0.5rem !important;
 
@@ -97,6 +102,12 @@
 @media only screen and (max-width: 500px) {
 
 
+
+    .page_bottom_cover {
+
+        height: 25rem !important;
+        /* width: 00% !important; */
+    }
 
     .comment_heading {
 

@@ -36,8 +36,11 @@
     display: flex;
     font-family: 'Inter', sans-serif;
 
+  
+    
     color: #5040A1;
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 600;
 
 
 }
