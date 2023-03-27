@@ -1,23 +1,26 @@
-// import Head from "next/head";
-// import Image from "next/image";
-import styles from "../styles/style.module.css";
-// import Header from "../Components/Header.js";
-import HeroHeader from "../Components/HeroHeader";
-import HeaderContent from "../Components/HeaderContent";
-import Banner from "../Components/eventBanner";
-import Navbar from "../Components/eventNav";
+"use client"
+
+import Navbar from '@/components/Navbar'
+
+import BannerSlider from '@/components/Banner';
+
+import Features from '@/components/Features';
+import Attractions from '@/components/Attractions';
+import Events from '@/components/Events';
+import styles from '../app/page.module.css';
+import Banner from '@/components/BannerPic';
+
 
 export default function Home() {
+  console.log(`hellow this is next js`);
   return (
-    <div>
+    <div className={styles.main}>
       <Navbar />
-      <HeroHeader />
-      
-      <div className={styles.heroHeaderContent}>
-        <HeaderContent />
-      </div>
-
+      <Features />
+      <BannerSlider />
+      <Attractions />
+      <Events />
       <Banner />
     </div>
-  );
+  )
 }
