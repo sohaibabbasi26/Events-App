@@ -25,10 +25,3 @@ export default function Home() {
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <main>
-      <h1> Hello Next JS 13 </h1>
-    </main>
-  )
-}

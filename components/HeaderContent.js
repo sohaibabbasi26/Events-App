@@ -102,7 +102,7 @@ export default function HeaderContent() {
                 <li>1914 translation by H. Rackham</li>
               </ul>
               <Image
-                src="/location.png"
+                src="/Location.png"
                 alt="Read More"
                 width={100}
                 height={30}
