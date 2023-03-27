@@ -23,7 +23,7 @@ import Corosoul from "../components/Corousel/corosoul"
 import Cover from "../components/cover/cover"
 import About from "../components/about/about"
 
-import City from "./eventPage"
+import City from "./eventPageTwo"
 
 
 import HeroHeader from "../components/HeroHeader";
@@ -64,7 +64,7 @@ const Post = () => {
 
             <HeroHeader />
 
-            <div className="attractionAboutComp" style={{  height: "maxContent" , marginBottom:"3rem" }}>
+            <div className="attractionAboutComp" style={{ minHeight: "maxContent", marginBottom: "3rem" }}>
                 <HeaderContent />
                 {/* <SideNavbar /> */}
             </div>
@@ -76,6 +76,7 @@ const Post = () => {
             <Review />
 
             <Comment />
+
 
 
             <Image className="page_bottom_cover" src="/cover.png" width={1000} height={200}></Image>

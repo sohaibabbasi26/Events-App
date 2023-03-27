@@ -1,3 +1,4 @@
+import styles from "../../styles/style.module.css";
 
 import React, { useState } from 'react';
 import {
@@ -14,19 +15,19 @@ import "./style.css"
 
 const items = [
     {
-        src: '/cover.png',
+        src: '/cover2.png',
         altText: 'Slide 1',
         caption: 'Slide 1',
         key: 1,
     },
     {
-        src: '/cover.png',
+        src: '/gallery.jpg',
         altText: 'Slide 2',
         caption: 'Slide 2',
         key: 2,
     },
     {
-        src: '/cover.png',
+        src: '/crousel2.png',
         altText: 'Slide 3',
         caption: 'Slide 3',
         key: 3,
@@ -65,11 +66,12 @@ function Example(args) {
 
 
                 tag="div"
+                style={{ height: "100%", width: "100%" }}
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <img style={{ height: "35rem", width: "100%" }} src={item.src} alt={item.altText} />
                 <CarouselCaption
                     captionText={item.caption}
                     captionHeader={item.caption}
@@ -91,6 +93,7 @@ function Example(args) {
 
 
                 style={{ width: "100%" }}
+
                 className='corousel_base'
                 activeIndex={activeIndex}
                 next={next}
