@@ -17,9 +17,9 @@ export default function Home() {
       <HeroHeader />
       <div className={styles.heroHeaderContent}>
         <HeaderContent />
-        <SideNavbar />
+        {/* <SideNavbar /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
       <Banner />
     </div>
   );
