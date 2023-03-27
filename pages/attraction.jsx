@@ -1,7 +1,7 @@
 
 "use client";
 import "../styles/attraction.css"
-// import "./responsive.css"
+import "../components/responsive.css"
 
 
 
@@ -28,7 +28,7 @@ import City from "./eventPage"
 
 import HeroHeader from "../components/HeroHeader";
 import SideNavbar from "../components/SideNavbr";
-import HeaderContent from "../components/HeaderContent";
+import HeaderContent from "../components/attractionAbout";
 import Footer from "../components/footer";
 import Banner from "../components/BannerPic";
 
@@ -64,9 +64,9 @@ const Post = () => {
 
             <HeroHeader />
 
-            <div className={styles.heroHeaderContent}>
+            <div className="attractionAboutComp" style={{ width: "80%", height: "maxContent" }}>
                 <HeaderContent />
-                <SideNavbar />
+                {/* <SideNavbar /> */}
             </div>
 
 

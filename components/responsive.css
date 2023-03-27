@@ -8,6 +8,16 @@
     }
 
 
+    .attractionAboutComp {
+        margin-top: -2rem;
+        width: 90%;
+        background-color: red;
+        height: 100rem !important;
+
+    
+
+    }
+
     .gallery_base {
         width: 90% !important;
 
@@ -164,7 +174,7 @@
     .comment_box {
         min-height: 20rem;
         gap: 1.5rem;
-        
+
     }
 
 }
