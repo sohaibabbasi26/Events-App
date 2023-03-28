@@ -1,19 +1,42 @@
 @media only screen and (max-width: 1000px) {
 
 
+    .attractionAboutComp {
+        width: 90%;
+    }
+
     .reviews_comp_base {
 
         width: 90%;
-        /* background-color: red; */
+
+
+    }
+
+    .comment_heading {
+
+        height: 5rem !important;
+        font-size: 30px !important;
     }
 
 
-    .gallery_base{
+    .attractionAboutComp {
+        margin-top: -2rem;
+        width: 90%;
+
+        height: 110rem !important;
+
+
+
+    }
+
+    .gallery_base {
         width: 90% !important;
+
     }
 
     .reviews_tab_base {
         width: 90% !important;
+
 
     }
 
@@ -27,6 +50,7 @@
     .comment_section_base {
 
         width: 90%;
+        height: 65rem !important;
         padding-left: 0.5rem !important;
 
 
@@ -59,11 +83,6 @@
         width: 90% !important;
     }
 
-    .main_screen_heading {
-
-        font-size: 1.2rem !important;
-    }
-
 
 
 
@@ -79,6 +98,13 @@
 
 
 
+    .comment_heading {
+
+        height: 7rem !important;
+        margin-bottom: 2rem;
+    }
+
+
     .comment_write_area {
         height: 20rem;
     }
@@ -86,6 +112,7 @@
     .comment_textarea {
 
         min-height: 10rem !important;
+
     }
 
 
@@ -130,14 +157,19 @@
         min-width: 85vw !important;
         max-width: 85vw !important;
         min-height: 18rem;
-        gap: 1rem
+        gap: 1rem;
+
     }
 
 
 
     .main_screen_heading {
 
-        font-size: 1rem !important;
+        /* font-size: 1rem !important; */
+
+
+
+        font-size: 25px !important;
 
 
     }
@@ -157,5 +189,11 @@
 
 
 
+
+    .comment_box {
+        min-height: 20rem;
+        gap: 1.5rem;
+
+    }
 
 }
