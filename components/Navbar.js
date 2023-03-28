@@ -28,7 +28,7 @@ const Navbar = () => {
                     <IconButton size='large' edge='start' color='inherit' aria-label='menu' onClick={handleClick}>
                         <img alt="" src="/images/ticket2-1.svg" className={styles.logoIcon} />
                     </IconButton>
-                    <Typography variant='h6' component='div' className={styles.logo}><b>Ticket App</b></Typography>
+                    <Typography variant='h6' component='div' className={styles.logo}><b>Buy Amazing Events</b></Typography>
 
                 </div>
 
