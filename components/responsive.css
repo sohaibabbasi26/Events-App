@@ -101,18 +101,21 @@
 
 @media only screen and (max-width: 500px) {
 
+    .attraction_middle_banner {
+        height: 10rem;
+    }
 
 
     .page_bottom_cover {
 
-        height: 25rem !important;
+        height: 10rem !important;
         /* width: 00% !important; */
     }
 
     .comment_heading {
 
         height: 7rem !important;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
 
 
@@ -136,15 +139,15 @@
 
     .comments_scrollbar {
 
-        min-height: 45rem;
-        max-height: 45rem;
+        min-height: 22rem;
+        max-height: 22rem;
         /* background-color: pink; */
     }
 
 
     .comment_section_base {
 
-        height: 85rem;
+        height: 60rem !important; 
         /* background-color: red; */
     }
 
