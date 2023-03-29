@@ -16,19 +16,19 @@ import "./style.css"
 
 const items = [
     {
-        src: '/cover2.png',
+        src: '/crousel1.jpg',
         altText: 'Slide 1',
         caption: 'Slide 1',
         key: 1,
     },
     {
-        src: '/gallery.jpg',
+        src: '/crousel2.jpg',
         altText: 'Slide 2',
         caption: 'Slide 2',
         key: 2,
     },
     {
-        src: '/crousel2.png',
+        src: '/crousel3.jpg',
         altText: 'Slide 3',
         caption: 'Slide 3',
         key: 3,
@@ -72,7 +72,7 @@ function Example(args) {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img style={{ height: "35rem", width: "100%" }} src={item.src} alt={item.altText} />
+                <img style={{ height: "auto", width: "100%" }} src={item.src} alt={item.altText} />
                 <CarouselCaption
                     captionText={item.caption}
                     captionHeader={item.caption}
