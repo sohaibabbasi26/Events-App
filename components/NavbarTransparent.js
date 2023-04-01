@@ -18,6 +18,7 @@ const DropdownButton = () => {
     };
 
     return (
+
         <>
             <Button onClick={handleClick} endIcon={<ExpandMoreIcon />} color='inherit' className={styles.eventButton}>
                 Event-types
@@ -43,6 +44,7 @@ const DropdownButton = () => {
                 </ul>
             </Popover>
         </>
+
     );
 };
 
@@ -63,7 +65,8 @@ const Navbar = () => {
     };
 
     return (
-        <AppBar position='static' className={styles.navbar}>
+
+        <AppBar sx={{ backgroundColor: "white" }} position='static' className={styles.navbar}>
             <Toolbar className={styles.navParent}>
 
 

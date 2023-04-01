@@ -36,6 +36,7 @@ import Banner from "../components/BannerPic";
 
 import styles from "../styles/style.module.css";
 import '../styles/globals.css';
+import Navbar from "@/components/NavbarTransparent";
 
 
 const Post = () => {
@@ -62,9 +63,10 @@ const Post = () => {
 
             {/* <About /> */}
 
+            {/* <Navbar /> */}
             <HeroHeader />
 
-            <div className="attractionAboutComp" style={{  height: "maxContent" , marginBottom:"3rem" }}>
+            <div className="attractionAboutComp" style={{ height: "maxContent", marginBottom: "3rem" }}>
                 <HeaderContent />
                 {/* <SideNavbar /> */}
             </div>

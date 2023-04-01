@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 .reviews_comp_base {
     width: 100%;
 
@@ -36,8 +36,8 @@
     display: flex;
     font-family: 'Inter', sans-serif;
 
-  
-    
+
+
     color: #5040A1;
     font-size: 25px;
     font-weight: 600;
@@ -203,7 +203,7 @@
 }
 
 
-.review_middle_bar{
+.review_middle_bar {
     font-family: 'Inter', sans-serif;
 
 }
