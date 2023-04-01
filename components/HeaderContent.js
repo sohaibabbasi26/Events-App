@@ -10,7 +10,7 @@ export default function HeaderContent() {
         Directly seated and inside for you to enjoy the show.
       </h2>
 
-      
+
       <div className={styles.Container}>
         <div className={styles.Content}>
           <div className={styles.eventsContainer}>
@@ -102,7 +102,7 @@ export default function HeaderContent() {
                 <li>1914 translation by H. Rackham</li>
               </ul>
               <Image
-                src="/location.png"
+                src="/Location.png"
                 alt="Read More"
                 width={100}
                 height={30}
@@ -191,6 +191,8 @@ export default function HeaderContent() {
             </div>
           </div>
         </div>
+
+
         <div className={styles.sideNavbarContainer}>
           <div className={styles.sideNavbar}>
             <div className={styles.sideNavbarContent}>
@@ -260,7 +262,13 @@ export default function HeaderContent() {
             />
           </div>
         </div>
+
+
+
       </div>
+
+
+
     </div>
   );
 }

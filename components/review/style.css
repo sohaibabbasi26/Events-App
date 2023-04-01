@@ -19,7 +19,7 @@
 .main_screen_heading {
     /* background-color: green; */
     height: 3rem;
-    width: 80%;
+    width: 90%;
 
 
 
@@ -36,15 +36,18 @@
     display: flex;
     font-family: 'Inter', sans-serif;
 
+  
+    
     color: #5040A1;
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 600;
 
 
 }
 
 
 .reviews_tab_base {
-    width: 80%;
+    width: 90%;
     min-height: 20rem;
     max-height: 20rem;
     /* background-color: pink; */

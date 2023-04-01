@@ -29,10 +29,12 @@
 // import Image from "next/image";
 import styles from "../styles/style.module.css";
 // import Header from "../Components/Header.js";
-import HeroHeader from "../Components/HeroHeader";
-import HeaderContent from "../Components/HeaderContent";
-import Banner from "../Components/eventBanner";
-import Navbar from "../Components/eventNav";
+
+import HeroHeader from "../components/HeroHeader";
+import HeaderContent from "../components/HeaderContent";
+import Banner from "../components/eventBanner";
+import Navbar from "../components/eventNav";
+
 
 export default function Home() {
   return (

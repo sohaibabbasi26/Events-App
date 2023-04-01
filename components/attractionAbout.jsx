@@ -1,18 +1,21 @@
 // import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/style.module.css";
+import "../styles/style.module.css";
 
 import "./responsive.css"
 
 
 export default function HeaderContent() {
+
+
   return (
 
 
-    <div style={{ width: "100%"  }} className={styles.headings}>
+    <div style={{ width: "100%", overflow: "hidden", minHeight: "maxContent" }} >
 
 
-      <h1>2011 Super Junior SM Town Live '10 World Tour New York City</h1>
+      <h1 style={{ padding: "3%" }} className="attraction_main_head">2011 Super Junior SM Town Live '10 World Tour New York City</h1>
       <h2 className={styles.headingMob}>
         Directly seated and inside for you to enjoy the show.
       </h2>
@@ -112,7 +115,7 @@ export default function HeaderContent() {
                 <li>1914 translation by H. Rackham</li>
               </ul>
               <Image
-                src="/location.png"
+                src="/Location.png"
                 alt="Read More"
                 width={100}
                 height={30}
@@ -125,7 +128,7 @@ export default function HeaderContent() {
         </div>
 
 
-        <div style={{ display: "flex", minWidth: "35%", justifyContent: "center", alignItems: "center", flexDirection: "column" }} className={styles.sideNavbarContainer}>
+        <div style={{ display: "flex", minWidth: "30%", justifyContent: "center", alignItems: "center", flexDirection: "column" }} className={styles.sideNavbarContainer}>
 
           <div style={{ width: '100%' }} className={styles.sideNavbar}>
 
@@ -197,6 +200,7 @@ export default function HeaderContent() {
           <div className={styles.bannerRes}>
 
             <Image
+              className="attraction_middle_banner"
               src="/mediabanner.png"
               style={{ width: "100%" }}
               alt="Banner"
@@ -209,6 +213,9 @@ export default function HeaderContent() {
 
 
       </div>
+
+
+
     </div>
   );
 }

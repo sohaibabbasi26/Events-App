@@ -4,7 +4,7 @@
 
 
 .comment_section_base {
-    width: 80%;
+    width: 90%;
     height: 60rem;
     background-color: #F1F4F5;
 
@@ -228,8 +228,8 @@
 
 
 .comments_scrollbar {
-    min-height: 23rem;
-    max-height: 23rem;
+    min-height: 23rem !important;
+    max-height: 23rem !important;
     /* height: 20rem; */
 
 
