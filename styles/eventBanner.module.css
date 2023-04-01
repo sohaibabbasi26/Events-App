@@ -4,7 +4,9 @@
     align-items: center;
     padding: 4%;
 }
-
+.footerImg:hover{
+    cursor: pointer;
+}
 .footerImg img {
     width: 100% !important;
     height: 100%;
