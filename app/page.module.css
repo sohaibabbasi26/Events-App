@@ -45,18 +45,23 @@
   letter-spacing: 1px;
 }
 
-.eventButton{
-  font-family: 'Inter' , sans-serif;
+.eventButton {
+  font-family: 'Inter', sans-serif;
   text-transform: capitalize;
   font-size: 16px;
   display: flex;
   justify-content: center;
   text-align: center;
+
+  width: max-content;
 }
 
-.feature{
+.feature {
   text-align: center;
-  color: #F5167E;
+
+
+
+
 }
 
 .eventItem a {
@@ -79,7 +84,7 @@
 }
 
 .navbar li {
-  
+
   list-style: none;
 
   /* display: inline; */
@@ -221,7 +226,7 @@
   justify-content: center;
   align-items: center;
   padding: 24px 100px 24px 100px;
-  
+
   max-width: 100%;
   flex-wrap: wrap;
   gap: 10px;
@@ -455,11 +460,11 @@ flex-grow: 0; */
 }
 
 
- .carouselArrows {
+.carouselArrows {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 
 
 @media only screen and (max-width:1200px) {
@@ -595,16 +600,16 @@ flex-grow: 0; */
     width: 100%;
   }
 
-  .menuContainer{
+  .menuContainer {
     position: relative;
   }
 
 
   .menuBarIcon {
     color: #5040A1;
-    
+
     height: 30px;
-    width: 30px; 
+    width: 30px;
     right: 0;
     top: 0;
     position: absolute;
@@ -735,52 +740,52 @@ flex-grow: 0; */
     font-size: 1.5rem;
   }
 
-   .carouselArrowsMobile {
+  .carouselArrowsMobile {
     display: none;
   }
 
-  .carouselImg{
+  .carouselImg {
     height: 25vh;
   }
-   
+
   /* CSS */
 
-/* For screens smaller than 768px */
-@media (max-width: 767px) {
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+  /* For screens smaller than 768px */
+  @media (max-width: 767px) {
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.Mui-disabled {
+      display: none;
+    }
+
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall {
+      padding: 8px;
+    }
+
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeStart {
+      left: 10px;
+    }
+
+    .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd {
+      right: 10px;
+    }
+
+    .page_carouselArrows__BzX9D {
+      display: none !important;
+    }
   }
 
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.Mui-disabled {
-    display: none;
+  .ps {
+    overflow: hidden !important;
   }
-
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall {
-    padding: 8px;
-  }
-
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeStart {
-    left: 10px;
-  }
-
-  .MuiCarousel-root .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd {
-    right: 10px;
-  }
-
-  .page_carouselArrows__BzX9D {
-    display: none !important;
-  }
-}
-
-.ps{
-  overflow: hidden !important;
-}
 
 
 }

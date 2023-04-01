@@ -15,14 +15,14 @@ export default function HeaderContent() {
     <div style={{ width: "100%", overflow: "hidden", minHeight: "maxContent" }} >
 
 
-      <h1 style={{ padding: "3%" }} className="attraction_main_head">2011 Super Junior SM Town Live '10 World Tour New York City</h1>
+      <h1 className="attraction_main_head">2011 Super Junior SM Town Live '10 World Tour New York City</h1>
       <h2 className={styles.headingMob}>
         Directly seated and inside for you to enjoy the show.
       </h2>
 
 
 
-      <div className={styles.Container}>
+      <div style={{ paddingLeft:"0px", paddingRight:"0px" }} className={styles.Container}>
 
 
         <div className={styles.Content}>
