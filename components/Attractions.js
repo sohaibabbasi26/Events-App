@@ -78,7 +78,7 @@ const Attractions = () => {
           ))}
         </ScrollBar>
       ) : (
-        <div className={styles.postsContainer}>
+        <div className={`${styles.postsContainer} ${styles.ps}`}>
           {posts.map((post) => (
             <a key={post.id} href={post.link} className={styles.event}>
               <Card className={styles.postCard}>

@@ -8,10 +8,10 @@ const Search = () => {
         <AppBar position='static' className={styles.navbar}>
             <Toolbar>
                 <InputBase
-                    placeholder='Search…'
+                    placeholder='Search'
                     inputProps={{ 'aria-label': 'search' }}
                     className={styles.navsearch}
-                    startAdornment={ <SearchIcon className={styles.searchIcon} />}
+                    endAdornment={ <SearchIcon className={styles.searchIcon} />}
                 />
 
             </Toolbar>

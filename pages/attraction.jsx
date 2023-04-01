@@ -23,6 +23,9 @@ import Banner from "../components/BannerPic";
 
 import styles from "../styles/style.module.css";
 import "../styles/globals.css";
+import '../styles/globals.css';
+import Navbar from "@/components/NavbarTransparent";
+
 
 const Post = () => {
   return (
@@ -58,3 +61,46 @@ const Post = () => {
 };
 
 export default Post;
+
+    return (
+
+
+        <div className="main_screen_base">
+
+
+
+
+
+
+            {/* <Cover /> */}
+
+            {/* <About /> */}
+
+            {/* <Navbar /> */}
+            <HeroHeader />
+
+            <div className="attractionAboutComp" style={{ height: "maxContent", marginBottom: "3rem" }}>
+                <HeaderContent />
+                {/* <SideNavbar /> */}
+            </div>
+
+
+
+            <Corosoul />
+
+            <Review />
+
+            <Comment />
+
+
+            <Image className="page_bottom_cover" src="/cover.png" width={1000} height={200}></Image>
+
+
+
+        </div >
+
+    )
+
+}
+
+export default Post
