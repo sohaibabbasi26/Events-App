@@ -23,7 +23,7 @@ const images = [
         height: 1000
     }
 ]
- 
+
 
 
 
@@ -39,7 +39,7 @@ const BannerSlider = () => {
     return (
         <div className={styles.bannerDiv}>
             <h1 className={styles.bannerText}><b>Offers for you</b></h1>
-            <div style={{width: '90%', height: '50%', borderRadius: '30px'}}>
+            <div style={{ width: '90%', height: '50%', borderRadius: '30px' }}>
                 <Carousel
                     autoPlay={true}
                     animation={"slide"}
@@ -48,6 +48,8 @@ const BannerSlider = () => {
                     interval={5000}
                     index={activeBanner}
                     onChange={handleBannerChange}
+                    indicators={false}
+                    
                 >
                     {images.map((image, index) => {
                         return (
