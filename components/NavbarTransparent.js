@@ -66,7 +66,7 @@ const Navbar = () => {
 
     return (
 
-        <AppBar sx={{ backgroundColor: "white" }} position='static' className={styles.navbar}>
+        <AppBar style={{ position: "absolute", backgroundColor: "transparent", top: "1rem", zIndex: 1 }} position='static' className={styles.navbar}>
             <Toolbar className={styles.navParent}>
 
 
@@ -107,7 +107,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     )}
-                    <button className={styles.navbtn}><b>Add My Event</b></button>
+                    <button style={{ backgroundColor: "transparent", border: "1px solid white" }} className={styles.navbtn}><b>Add My Event</b></button>
                     <div className={styles.menuContainer}>
                         <IconButton
                             size='large'
@@ -127,7 +127,7 @@ const Navbar = () => {
                     <MenuRounded className={styles.menuBarIcon}/>
                 </IconButton> */}
             </Toolbar>
-            <Search />
+            {/* <Search /> */}
 
 
         </AppBar>
