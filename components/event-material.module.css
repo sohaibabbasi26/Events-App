@@ -1,12 +1,11 @@
 .body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter',sans-serif;
 }
 
 
 .eventMaterialContainerWrapper {
     display: flex;
     flex-direction: row;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 3rem;
     /* padding: 2rem; */
     /* background-color: aqua; */
@@ -20,6 +19,23 @@
 }
 
 
+ .eventIncludes.eventsContents {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 3%;
+    /* margin: 1rem 0 0 4rem; */
+
+}
+
+
+.eventIncludes .event span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 1rem;
+}
+
 .eventMaterialContainerBox1 {
     /* background-color: rgb(133, 133, 201); */
     display: flex;
@@ -27,6 +43,7 @@
     width: 80rem;
     padding-right: 40px;
 }
+
 @media screen and (max-width: 900px) {
     .eventMaterialContainerBox1 {
         padding-right: 0;
@@ -43,7 +60,7 @@
 
 .eventMaterialContainerBox1 h1,
 .eventMaterialContainerBox1 p,
-.eventMaterialContainerBox1 li {
+.eventMaterialContainerBox1 li{
     margin: 20px 0px;
 }
 

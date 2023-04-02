@@ -66,7 +66,7 @@
     font-size: 24px;
     line-height: 151.02%;
     color: #5040A1;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .events span {
@@ -163,23 +163,35 @@
     font-weight: 600;
     border: none;
     font-size: 15px;
+    transition-duration: 0.2s;
 }
+.sideNavbar button:hover{
+    cursor: pointer;
+    background: #f5167ec3;
 
+    
+}
 .banner img {
     width: 100%;
+}
+.banner:hover{
+    cursor: pointer;
 }
 
 .bannerRes img {
     display: none;
 }
 
+.bannerRes:hover{
+    cursor: pointer;
+}
 .aboutEvent {
     display: flex;
     flex-direction: column;
     /* justify-content: flex-start; */
     align-items: flex-start;
     /* margin: 1rem 0 0 4rem; */
-    margin-top: 7rem;
+    margin-top: 1rem;
 
 
 }
@@ -192,7 +204,7 @@
 }
 
 .aboutEvent span {
-    width: 80%;
+    width: 90%;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -251,7 +263,7 @@
     }
 
     .sideNavbar {
-        width: 92%;
+        width: 91%;
         align-items: center;
 
     }
@@ -260,7 +272,7 @@
 
 
     .aboutEvent span {
-        width: 92%;
+        width: 100%;
     }
 }
 
@@ -272,7 +284,9 @@
 }
 
 @media(max-width:500px) {
-
+    .sideNavbar{
+        width: 88%;
+    }
 
     .aboutEvent span {
         font-size: 14px;
@@ -412,6 +426,12 @@
 
 
     color: #FFFFFF;
+    transition-duration: 0.5s;
+
+}
+.commentTextArea .commentFooter button:hover{
+    cursor: pointer;
+    background: #3f41ad;
 
 }
 
@@ -429,7 +449,7 @@
 
 @media(max-width:556px) {
     .footer {
-        width: 92%;
+        width: 90%;
     }
 
     .comment1 span {
