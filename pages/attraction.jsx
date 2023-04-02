@@ -63,8 +63,12 @@ const Post = () => {
 
             {/* <About /> */}
 
-            {/* <Navbar /> */}
-            <HeroHeader />
+            <span style={{width:"100%" , height:"maxContent" , position:"relative"}}>
+                <Navbar />
+                <HeroHeader />
+            </span>
+
+
 
             <div className="attractionAboutComp" style={{ height: "maxContent", marginBottom: "3rem" }}>
                 <HeaderContent />
