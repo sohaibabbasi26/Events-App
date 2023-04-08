@@ -14,6 +14,7 @@
     "@fortawesome/fontawesome-free": "^6.3.0",
     "@mui/material": "^5.11.14",
     "@next/font": "^13.2.4",
+    "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "eslint": "8.36.0",
     "mdb-react-ui-kit": "^5.1.0",

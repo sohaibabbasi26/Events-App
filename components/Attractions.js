@@ -4,6 +4,7 @@ import 'react-perfect-scrollbar/dist/css/styles.css';
 import ScrollBar from 'react-perfect-scrollbar';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import axios from 'axios';
 
 const posts = [
   {
@@ -30,16 +31,32 @@ const posts = [
 ];
 
 const Attractions = () => {
+  const [data,setData]=useState([]);
+  const getData=async()=>{
+    try {
+      let response = await axios({
+        method: 'get',
+        url: `http://localhost:3001/v1/randomEvents`,
+        json: true
+    });
+    // console.log(response.data.data);
+    setData(response.data.data)
+    } catch (error) {
+      console.log(error);
+    }
+  }
   const MAX_POSTS_WITHOUT_SCROLL = 1;
   const media = useMediaQuery('(max-width: 1200px)');
   const [isMobile, setIsMobile] = useState(media);
   const [isScrollable, setIsScrollable] = useState(false);
-
   useEffect(() => {
     setIsMobile(media);
     setIsScrollable(posts.length > 0);
   }, [media]);
 
+  useEffect(()=>{
+    getData();
+  },[0])
   return (
     <div className={styles.mainContainer}>
       <h1 className={styles.postsHeading}><b>Attractions near you</b></h1>
@@ -55,13 +72,14 @@ const Attractions = () => {
           }}
           className={styles.postsContainer}
         >
-          {posts.map((post) => (
-            <a key={post.id} href={post.link} className={styles.event} >
+          {data.map((post) => (
+            // console.log();
+            <a key={post.event_id} href={post.url} className={styles.event} >
               <Card className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>
-                  <h1 className={styles.cardHeading}><b>{post.heading}</b></h1>
+                  <h1 className={styles.cardHeading}><b>{post.title}</b></h1>
 
                   <CardContent>
                     <Typography
@@ -69,7 +87,7 @@ const Attractions = () => {
                       component="p"
                       className={styles.postContent}
                     >
-                      {post.para}
+                      {post.description}
                     </Typography>
                   </CardContent>
                 </div>
@@ -79,13 +97,13 @@ const Attractions = () => {
         </ScrollBar>
       ) : (
         <div className={styles.postsContainer}>
-          {posts.map((post) => (
-            <a key={post.id} href={post.link} className={styles.event}>
+          {data.map((post) => (
+            <a key={post.event_id} href={post.url} className={styles.event}>
               <Card className={styles.postCard}>
                 <img className={styles.cardImage} src={post.img} alt="Image" />
 
                 <div className={styles.textContent}>
-                    <b className={styles.cardHeading}>{post.heading}</b>
+                    <b className={styles.cardHeading}>{post.title}</b>
                   
 
                   <CardContent>
@@ -94,7 +112,7 @@ const Attractions = () => {
                       component="p"
                       className={styles.postContent}
                     >
-                      {post.para}
+                      {post.description}
                     </Typography>
                   </CardContent>
                 </div>
